@@ -1,15 +1,22 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: `Mexili`,
+    siteTitleAlt: `Mexili - We are an open source organisation trying to make meaningful products`,
+    siteHeadline: `Mexili - We are an open source organisation trying to make meaningful products`,
+    siteUrl: `https://mexili.github.io`,
+    siteDescription: `We are an open source organisation trying to make impactful products.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.png`,
+    author: `@mexili`,
   },
   plugins: [
     {
@@ -26,9 +33,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Mexili Org`,
+        short_name: `Mexili`,
+        description: `We are an open source organisation trying to make impactful products.`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -58,4 +65,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
