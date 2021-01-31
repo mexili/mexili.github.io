@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "name": "Mexili",
+  "description": "Mexili is a Free and Open Source organization whose motivation is to funnel learning and implementation through Open Source Software Development.",
   "version": "0.2.8",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Mexili Org",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-cara",
+  "starter-name": "mexili org",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
